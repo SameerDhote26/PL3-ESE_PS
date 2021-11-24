@@ -1,0 +1,171 @@
+h1 {
+    text-align: center;
+    font-weight: 3000;
+    color: rgb(136, 12, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+/* .nav-style {
+        background: #000;
+        font-weight: 600;
+        align-items: center;
+    } */
+
+body {
+    background-color: peachpuff;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 200%;
+    font-style: italic;
+}
+
+.center-box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px;
+    box-shadow: 10px 50px 50px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.para {
+    text-align: center;
+    align-items: center;
+    padding: 4%;
+    font-size: 134%;
+}
+
+.in-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-size: 17px;
+    border-right: 1px solid #bbb;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+ul.topnav li a.active {
+    background-color: #ce4141;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 720px) {
+    ul.topnav li {
+        width: 100%;
+    }
+    ul.topnav a {
+        width: 100%;
+    }
+}
+
+#main {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 100px;
+    border-top: 3px double #f1f1f1;
+    border-bottom: 3px double #f1f1f1;
+    padding-top: 20px;
+}
+
+#main table {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 125%;
+}
+
+
+/* css code for textbox */
+
+#main .tb {
+    height: 28px;
+    width: 230px;
+    border: 1px solid #f26724;
+    color: #000000;
+    font-weight: bold;
+    border-left: 5px solid #f7f7f7;
+    opacity: 0.9;
+    font-size: 100%;
+}
+
+#main .tb:focus {
+    height: 28px;
+    border: 1px solid #000000;
+    outline: none;
+    border-left: 5px solid #f7f7f7;
+}
+
+
+/* css code for button*/
+
+#main .btn {
+    width: 150px;
+    height: 32px;
+    outline: none;
+    color: #9cff8a;
+    font-weight: bold;
+    border: 0px solid #080807;
+    text-shadow: 0px 0.5px 0.5px #9cff8a;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #050404;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background-color: #9cff8a;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#main .btn:hover {
+    background-color: #f26724;
+    outline: none;
+    border-radius: 2px;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
