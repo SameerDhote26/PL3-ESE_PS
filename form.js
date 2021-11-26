@@ -48,17 +48,21 @@ function clearFunc() {
     document.getElementById("t7").value = "";
 }
 
-function WriteToFile(passForm) {
+// function WriteToFile(passForm) {
 
-    let fso = CreateObject("Scripting.FileSystemObject");
-    let s = fso.CreateTextFile(uid + ".txt", True);
+//     let fso = CreateObject("Scripting.FileSystemObject");
+//     let s = fso.CreateTextFile(uid + ".txt", True);
 
-    var name = document.getElementById('t1');
-    var mob = document.getElementById('t2');
+//     var name = document.getElementById('t1');
+//     var mob = document.getElementById('t2');
 
-    s.writeline("Name :" + t1);
-    s.writeline("Last Name :" + lastName);
+//     s.writeline("Name :" + t1);
+//     s.writeline("Last Name :" + lastName);
 
-    s.writeline("-----------------------------");
-    s.Close();
+//     s.writeline("-----------------------------");
+//     s.Close();
+// }
+
+function login() {
+    window.location = "index.html";
 }

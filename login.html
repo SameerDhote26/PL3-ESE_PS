@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>About Us</title>
+</head>
+
+<body>
+    <h1 className="head">
+        <img src="wceicon.png" width="100" /> WCE ONLINE FACULTY MANAGEMENT
+    </h1>
+    <div>
+        <nav class="nav-style">
+            <ul class="topnav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="profile.html">Profiles</a></li>
+                <!-- <li class="right"><a href="about.html">About</a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    <div id="main">
+        <div class="h-tag">
+            <h2 align="center">Create Your Account</h2>
+        </div>
+        <!-- create account div -->
+        <div class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">User id :</td>
+                    <td><input type="text" id="t1" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right"> Password :</td>
+                    <td><input type="password" id="t2" class="tb" /></td>
+                </tr>
+            </table>
+            <button onclick="login()" class="btn">Login</button>
+        </div>
+    </div>
+</body>
+<script src="form.js"></script>
+
+</html>

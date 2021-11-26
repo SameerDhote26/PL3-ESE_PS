@@ -39,13 +39,6 @@ h3 {
     font-size: 134%;
 }
 
-.in-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -25px 0 0 -25px;
-}
-
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -141,6 +134,7 @@ ul.topnav li.right {
 /* css code for button*/
 
 #main .btn {
+    align-items: center;
     width: 150px;
     height: 32px;
     outline: none;
